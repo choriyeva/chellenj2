@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(246, 234, 236);
+    &>.card{
+        background: #fff;
+        margin: 300px auto;
+        width: 900px;
+        height: 580px;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        &>.card-img{
+            
+            width: 450px;
+            &>img{
+                width: 450px;
+                height: 100%;
+            }
+        }
+        &>.card-text{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 35px;
+            h5{
+                font-family: Poppins;
+                font-weight: 200;
+                font-size: 17px;
+            }
+            h2{
+                font-size: 45px;
+                font-weight: 200;
+                font-family: Caprasimo;
+            }
+            &>p{
+                color: #198066;
+            font-family: Poppins;
+            font-size: 17px;
+                
+            }
+            h1{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                font-size: 40px;
+                color: #369666;
+                font-family: Caprasimo;
+                font-weight: 400;
+                &>b{
+                    color: #3a3a3b;
+                    font-size: 20px;
+                    font-family: serif;
+                    font-weight: 100;
+                }
+            }
+            &>button{
+                display: flex;
+                // align-items: center;
+                padding: 24px 90px;
+                gap: 16px;
+                text-align: center;
+                width: 350px;
+                font-size: 20px;
+                font-weight: 400;
+                height: 70px;
+                border-radius: 10px;
+                border: none;
+                background: #194338;
+                color: #fff;
+            }
+        }
+    }
+}
