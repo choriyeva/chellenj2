@@ -9,7 +9,7 @@ body {
 }
 body > .card {
   background: #fff;
-  margin: 300px auto;
+  margin: 200px auto;
   width: 900px;
   height: 580px;
   display: flex;
